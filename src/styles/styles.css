@@ -1,0 +1,29 @@
+/* src/styles/styles.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.breadcrumb-container {
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+.category-tree-container {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.product-display-container {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
